@@ -1,4 +1,4 @@
-# App demonstrate SOLID principles in iOS on Swift language
+## Demonstrate SOLID principles in iOS on Swift language
 
 <p align="center">
   <img src="https://github.com/vkrotin/SOLIDexamples/blob/main/ExampleSOLID/Images/SOLID.png?raw=true">
