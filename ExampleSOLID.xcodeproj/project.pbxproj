@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,19 @@
 		75ACE36925C3EBE00042370F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ACE36725C3EBE00042370F /* Main.storyboard */; };
 		75ACE36B25C3EBE10042370F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ACE36A25C3EBE10042370F /* Assets.xcassets */; };
 		75ACE36E25C3EBE10042370F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ACE36C25C3EBE10042370F /* LaunchScreen.storyboard */; };
+		75ACE37E25C3EC200042370F /* UrlType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE37925C3EC200042370F /* UrlType.swift */; };
+		75ACE37F25C3EC200042370F /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE37A25C3EC200042370F /* ServerError.swift */; };
+		75ACE38025C3EC200042370F /* ModelUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE37B25C3EC200042370F /* ModelUrl.swift */; };
+		75ACE38125C3EC200042370F /* ModelUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE37C25C3EC200042370F /* ModelUrlRequest.swift */; };
+		75ACE38225C3EC200042370F /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE37D25C3EC200042370F /* NetworkingManager.swift */; };
+		75ACE38625C3EC2C0042370F /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE38525C3EC2C0042370F /* Topping.swift */; };
+		75ACE38A25C3EC570042370F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE38925C3EC570042370F /* DataManager.swift */; };
+		75ACE38E25C3EC7B0042370F /* SugDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE38D25C3EC7B0042370F /* SugDataManager.swift */; };
+		75ACE39425C3ECC50042370F /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE39125C3ECC50042370F /* GitHubModel.swift */; };
+		75ACE39525C3ECC50042370F /* FetchGithub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE39225C3ECC50042370F /* FetchGithub.swift */; };
+		75ACE39625C3ECC50042370F /* GithubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE39325C3ECC50042370F /* GithubRequest.swift */; };
+		75ACE39B25C3F2CE0042370F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 75ACE39A25C3F2CE0042370F /* Realm */; };
+		75ACE39D25C3F2CE0042370F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75ACE39C25C3F2CE0042370F /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,17 @@
 		75ACE36A25C3EBE10042370F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75ACE36D25C3EBE10042370F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75ACE36F25C3EBE10042370F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75ACE37925C3EC200042370F /* UrlType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlType.swift; sourceTree = "<group>"; };
+		75ACE37A25C3EC200042370F /* ServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		75ACE37B25C3EC200042370F /* ModelUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelUrl.swift; sourceTree = "<group>"; };
+		75ACE37C25C3EC200042370F /* ModelUrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelUrlRequest.swift; sourceTree = "<group>"; };
+		75ACE37D25C3EC200042370F /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		75ACE38525C3EC2C0042370F /* Topping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		75ACE38925C3EC570042370F /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		75ACE38D25C3EC7B0042370F /* SugDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugDataManager.swift; sourceTree = "<group>"; };
+		75ACE39125C3ECC50042370F /* GitHubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		75ACE39225C3ECC50042370F /* FetchGithub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchGithub.swift; sourceTree = "<group>"; };
+		75ACE39325C3ECC50042370F /* GithubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ACE39D25C3F2CE0042370F /* RealmSwift in Frameworks */,
+				75ACE39B25C3F2CE0042370F /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +82,7 @@
 		75ACE36025C3EBE00042370F /* ExampleSOLID */ = {
 			isa = PBXGroup;
 			children = (
+				75ACE37625C3EBEA0042370F /* S.O.L.I.D. */,
 				75ACE36125C3EBE00042370F /* AppDelegate.swift */,
 				75ACE36325C3EBE00042370F /* SceneDelegate.swift */,
 				75ACE36525C3EBE00042370F /* ViewController.swift */,
@@ -65,6 +92,72 @@
 				75ACE36F25C3EBE10042370F /* Info.plist */,
 			);
 			path = ExampleSOLID;
+			sourceTree = "<group>";
+		};
+		75ACE37625C3EBEA0042370F /* S.O.L.I.D. */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE37725C3EC200042370F /* Single Responsibility */,
+				75ACE38425C3EC2C0042370F /* Open Closed */,
+				75ACE38825C3EC570042370F /*  Liskov substitution */,
+				75ACE38C25C3EC7B0042370F /* Interface segregation */,
+				75ACE39025C3ECC50042370F /* Dependency inversion */,
+			);
+			path = S.O.L.I.D.;
+			sourceTree = "<group>";
+		};
+		75ACE37725C3EC200042370F /* Single Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE37825C3EC200042370F /* Model */,
+				75ACE37D25C3EC200042370F /* NetworkingManager.swift */,
+			);
+			path = "Single Responsibility";
+			sourceTree = "<group>";
+		};
+		75ACE37825C3EC200042370F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE37925C3EC200042370F /* UrlType.swift */,
+				75ACE37A25C3EC200042370F /* ServerError.swift */,
+				75ACE37B25C3EC200042370F /* ModelUrl.swift */,
+				75ACE37C25C3EC200042370F /* ModelUrlRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75ACE38425C3EC2C0042370F /* Open Closed */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE38525C3EC2C0042370F /* Topping.swift */,
+			);
+			path = "Open Closed";
+			sourceTree = "<group>";
+		};
+		75ACE38825C3EC570042370F /*  Liskov substitution */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE38925C3EC570042370F /* DataManager.swift */,
+			);
+			path = " Liskov substitution";
+			sourceTree = "<group>";
+		};
+		75ACE38C25C3EC7B0042370F /* Interface segregation */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE38D25C3EC7B0042370F /* SugDataManager.swift */,
+			);
+			path = "Interface segregation";
+			sourceTree = "<group>";
+		};
+		75ACE39025C3ECC50042370F /* Dependency inversion */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE39125C3ECC50042370F /* GitHubModel.swift */,
+				75ACE39225C3ECC50042370F /* FetchGithub.swift */,
+				75ACE39325C3ECC50042370F /* GithubRequest.swift */,
+			);
+			path = "Dependency inversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +176,10 @@
 			dependencies = (
 			);
 			name = ExampleSOLID;
+			packageProductDependencies = (
+				75ACE39A25C3F2CE0042370F /* Realm */,
+				75ACE39C25C3F2CE0042370F /* RealmSwift */,
+			);
 			productName = ExampleSOLID;
 			productReference = 75ACE35E25C3EBE00042370F /* ExampleSOLID.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 75ACE35525C3EBE00042370F;
+			packageReferences = (
+				75ACE39925C3F2CE0042370F /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 75ACE35F25C3EBE00042370F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ACE38625C3EC2C0042370F /* Topping.swift in Sources */,
+				75ACE38A25C3EC570042370F /* DataManager.swift in Sources */,
+				75ACE37F25C3EC200042370F /* ServerError.swift in Sources */,
+				75ACE38E25C3EC7B0042370F /* SugDataManager.swift in Sources */,
 				75ACE36625C3EBE00042370F /* ViewController.swift in Sources */,
+				75ACE37E25C3EC200042370F /* UrlType.swift in Sources */,
 				75ACE36225C3EBE00042370F /* AppDelegate.swift in Sources */,
 				75ACE36425C3EBE00042370F /* SceneDelegate.swift in Sources */,
+				75ACE39425C3ECC50042370F /* GitHubModel.swift in Sources */,
+				75ACE39525C3ECC50042370F /* FetchGithub.swift in Sources */,
+				75ACE39625C3ECC50042370F /* GithubRequest.swift in Sources */,
+				75ACE38225C3EC200042370F /* NetworkingManager.swift in Sources */,
+				75ACE38025C3EC200042370F /* ModelUrl.swift in Sources */,
+				75ACE38125C3EC200042370F /* ModelUrlRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +452,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75ACE39925C3F2CE0042370F /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75ACE39A25C3F2CE0042370F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75ACE39925C3F2CE0042370F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		75ACE39C25C3F2CE0042370F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75ACE39925C3F2CE0042370F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75ACE35625C3EBE00042370F /* Project object */;
 }
