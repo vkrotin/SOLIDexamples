@@ -1,6 +1,8 @@
 # SOLIDexamples
 App demonstrate SOLID principles in iOS on Swift language
 
+<img align="center" src="https://github.com/vkrotin/SOLIDexamples/blob/main/ExampleSOLID/Images/SOLID.png?raw=true">
+
 ### Single responsibility principle
 
 The single responsibility principle is a computer programming principle that states that every module, class, or function should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.
