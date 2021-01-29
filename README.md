@@ -1,7 +1,10 @@
 # SOLIDexamples
 App demonstrate SOLID principles in iOS on Swift language
 
-<img align="center" src="https://github.com/vkrotin/SOLIDexamples/blob/main/ExampleSOLID/Images/SOLID.png?raw=true">
+<p align="center">
+  <img src="https://github.com/vkrotin/SOLIDexamples/blob/main/ExampleSOLID/Images/SOLID.png?raw=true">
+</p>
+
 
 ### Single responsibility principle
 
